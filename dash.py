@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-import openpyxl
 import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
