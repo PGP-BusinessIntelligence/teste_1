@@ -269,4 +269,3 @@ contagem_erros = (tabelaordenada["Status"] == "FAILED").sum()
 filtro2 = ["FAILED"]
 
 tabelaordenada  = tabelaordenada.loc[tabelaordenada ["Status"].isin(filtro2)].copy()
-print(tabelaordenada)
